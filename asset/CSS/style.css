@@ -116,6 +116,12 @@
     justify-content: center;
   }
   
+  article { 
+    display: flex;
+    align-items: left;
+    justify-content: center;
+  }
+  
   .abtme img {
     height: 500px;
     width: 400px;
@@ -123,7 +129,7 @@
     border-radius: 15px;
   }
   
-  .abtme p {
+  p {
     background: var(--tertiary-color);
     border: 5px solid var(--secondary-color);
     border-radius: 20px;
